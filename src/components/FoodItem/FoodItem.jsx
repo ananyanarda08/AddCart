@@ -17,7 +17,7 @@ const FoodItem = ({id,name,price,description,image}) => {
                 <p>{itemCount}</p>
                 <img onClick={()=>setItemCount(prev=>prev+1)} src={assets.add_icon_green} alt=''/>
              </div>
-        }
+        } 
       </div>
       <div className='food-item-info'>
         <div className='food-item-name-rating'>
