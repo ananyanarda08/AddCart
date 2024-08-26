@@ -14,6 +14,7 @@
     border-radius: 15px 15px 0px 0px;
     margin-left: 0;
     /* height: 100vh; */
+    margin: 0;
 }
 
 .food-item-info{
@@ -56,6 +57,7 @@
 .food-item-img-container{
     margin: 0;
     position: relative;
+    
 }
 
 .food-item-img-container .add{
@@ -66,6 +68,7 @@
     cursor: pointer;
     border-radius: 50%;
     margin: 0;
+    
 }
 
 .food-item-counter{
@@ -90,4 +93,5 @@
 .food-item-counter img{
     margin: 0;
 }
+
 

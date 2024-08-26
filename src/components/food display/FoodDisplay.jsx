@@ -9,14 +9,14 @@ const FoodDisplay = ({category}) => {
     <div className='food-display' id='food-display'>
       <h2>Top dishes near you</h2>
       <div className='food-display-list'>
-        {food_list.map((item,index)=>{
-          // if(category==="Al  l" || category===item.category){
-          return <FoodItem  id={item.id} name={item.name} key={item.index} description={item.description} price={item.price} image={item.image}/>
-          // }
-          
+        {food_list.map((item)=>{
+           if(category==="All" || category===item.category){
+            return <FoodItem  id={item.id} name={item.name} key={item.index} description={item.description} price={item.price} image={item.image}/>
+           }
         })}
       </div>
     </div>
   )
 }           
+
 export default FoodDisplay                                                                                                                                                                                      
